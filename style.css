@@ -176,6 +176,24 @@ body {
   }
 }
 
+@media screen and (max-width:450px) {
+  #products .productsDiv{
+    display: grid;
+    grid-template-columns: auto;
+
+  }
+
+  .twoProducts{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .singleProduct{
+    width: 300px;
+  }
+}
+
+
 /*-------footer-------- */
 footer {
   width: 100%;
