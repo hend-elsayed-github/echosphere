@@ -787,6 +787,7 @@ nav a:hover::after {
 }
 .aboutDes{
   color: #666;
+  font-size: 18px;
 }
 .whyContainer,
 .aboutContainer {
