@@ -639,6 +639,7 @@ nav a:hover::after {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   font-size: 36px;
   font-family: SomarSans-SemiBold;
   margin-top: 40px;
