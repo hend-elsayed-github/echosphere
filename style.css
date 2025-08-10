@@ -583,7 +583,8 @@ nav a:hover::after {
 }
 .hero-content .authorAr{
   font-weight: bold;
-  font-size: clamp(34px, 2vw, 24px);
+  margin-bottom: 3px;
+  font-size: clamp(32px, 2vw, 24px);
 }
 .hero-content .title {
   font-weight: bold;
