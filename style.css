@@ -365,21 +365,29 @@ a {
   position: fixed;
   top: 0;
   width: 100%;
-  height: 60px;
+  height: 65px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   z-index: 100;
   /* background-color: rgb(220, 220, 220, 0.9); */
   background-color: #ffffff;
 }
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navLogoTitle{
+  color: #4EBCBA;
+  font-family: SomarSans-SemiBold;
+  font-size: 26px;
+}
 .navbar img {
-  width: 45px;
-  position: relative;
-  top: -12px;
-  left: -15px;
+  width: 60px;
+  
 }
 .navbar .imgEN{
-  left: 15px;
-  width: 45px;
+  /* left: 15px; */
+  width: 60px;
 }
 @media screen and (max-width: 370px) {
   .navbar .imgEN{

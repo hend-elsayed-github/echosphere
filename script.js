@@ -40,7 +40,7 @@ function drawArabicLogo() {
   const displayHeight = canvasAr.clientHeight;
   let fontSize = displayHeight * 0.6;
 
-  ctxAr.font = `${fontSize}px 'Amiri', sans-serif`;
+  ctxAr.font = `${fontSize}px 'SomarSans-SemiBold`;
   const text = "ايكوسفير";
   const textWidth = ctxAr.measureText(text).width;
 
@@ -53,12 +53,12 @@ function drawArabicLogo() {
 
   ctxAr.clearRect(0, 0, canvasAr.width, canvasAr.height);
 
-  ctxAr.font = `${fontSize}px 'Amiri', sans-serif`;
-  ctxAr.strokeStyle = "#008080";
+  ctxAr.font = `${fontSize}px SomarSans-SemiBold`;
+  ctxAr.fillStyle = "#008080";
   ctxAr.textAlign = "right";
   ctxAr.direction = "rtl";
 
-  ctxAr.strokeText(text, canvasAr.width - padding, displayHeight - 10);
+  ctxAr.fillText(text, canvasAr.width - padding, displayHeight - 10);
 }
 
 window.addEventListener("load", drawArabicLogo);
@@ -81,12 +81,12 @@ function drawCanvasLogo() {
 
   // Calculate font size relative to canvas height
   const fontSize = displayHeight * 0.6;
-  ctxEn.font = `${fontSize}px Arial`;
-  ctxEn.strokeStyle = "#008080";
+  ctxEn.font = `${fontSize}px SomarSans-SemiBold`;
+  ctxEn.fillStyle = "#008080";
   ctxEn.lineWidth = 1.5;
 
   // Draw text centered vertically
-  ctxEn.strokeText("ecosphere", 15 , displayHeight - 10);
+  ctxEn.fillText("ecosphere", 15 , displayHeight - 10);
 }
 
 // Draw once on load
