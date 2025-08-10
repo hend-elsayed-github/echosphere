@@ -190,7 +190,7 @@ body {
   
   .singleProduct {
     max-width: 100%;
-    height: 380px;
+    /* height: 380px; */
   }
   
   .productsTitle {
@@ -201,7 +201,7 @@ body {
 
 @media screen and (max-width: 450px) {
   .singleProduct {
-    height: 350px;
+    /* height: 350px; */
   }
   
   .productDes {
