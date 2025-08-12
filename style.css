@@ -551,13 +551,21 @@ nav a:hover::after {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.1);
   z-index: -1;
 }
 .hero-content {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  /* background-color: hsl(0, 0%, 87%,.6);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  box-sizing: border-box;
+  padding: 10px; */
 }
 .hero-content .author {
   font-weight: bold;
@@ -923,6 +931,12 @@ width: 80%;
   opacity: 0;
   transform: translateY(20px);
   transition: all 0.5s ease;
+  background-color: hsl(180, 100%, 25%, .4);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
 }
 
 .carousel-item.active .carousel-caption {
@@ -932,7 +946,7 @@ width: 80%;
 
 .slide-title {
   font-family: SomarSans-SemiBold;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   margin-bottom: 1rem;
   color: #ffffff;
 }
@@ -942,6 +956,7 @@ width: 80%;
   line-height: 1.6;
   color: #ffffff;
   margin-bottom: 1.5rem;
+  
 }
 
 .cta-button {
