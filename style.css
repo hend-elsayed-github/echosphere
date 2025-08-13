@@ -31,7 +31,7 @@ body {
   width: 100%;
 }
 
-/* ----products---- */
+/* -------------products-------------- */
 #products {
   width: 100%;
   min-height: 100vh;
@@ -154,7 +154,7 @@ body {
   }
 }
 
-/* Responsive adjustments */
+/*----------- Responsive adjustments for products section --------------*/
 @media screen and (max-width: 1118px) {
   .productsDiv {
     justify-items: center;
@@ -190,16 +190,14 @@ body {
 }
 
 @media screen and (max-width: 450px) {
-  .singleProduct {
-  }
-  
+
   .productDes {
     font-size: 0.9rem;
   }
 }
 
 
-/*-------footer-------- */
+/*---------------footer---------------- */
 footer {
   width: 100%;
   background-color: #1f2937;
@@ -274,7 +272,7 @@ hr.line {
   margin: 10px auto;
 }
 
-/* footer other screens */
+/* --------------------footer other screens -------------------*/
 @media screen and (max-width:1140px){
   .footerDiv {
   grid-template-columns: auto auto ;
@@ -299,7 +297,7 @@ hr.line {
 }
 }
 
-/* header & contacts sections */
+/*-------------- header & contacts sections ---------------------*/
 
 a {
   text-decoration: none;
@@ -357,7 +355,6 @@ a {
   height: 65px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   z-index: 100;
-  /* background-color: rgb(220, 220, 220, 0.9); */
   background-color: #ffffff;
 }
 .logo{
@@ -431,7 +428,8 @@ nav a:hover::after {
   color: black;
   font-size: 24px;
 }
-/*navbar in mobile*/
+
+/*----------------navbar in mobile--------------*/
 .media-navbar{
   height: 100%;
   position: fixed;
@@ -531,7 +529,7 @@ nav a:hover::after {
   }
   
 }
-/*hero*/
+/*----------------hero-----------------*/
 .hero {
   position: relative;
   height: 100vh;
@@ -558,14 +556,6 @@ nav a:hover::after {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  /* background-color: hsl(0, 0%, 87%,.6);
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
-  box-sizing: border-box;
-  padding: 10px; */
 }
 .hero-content .author {
   font-weight: bold;
@@ -634,7 +624,8 @@ nav a:hover::after {
     padding-right: 20px;
   }
 }
-/*contactUs*/
+
+/*------------contactUs---------------*/
 .title-heading {
   display: flex;
   justify-content: center;
@@ -775,7 +766,7 @@ nav a:hover::after {
 }
 
 
-/* about and why */
+/*---------------- about and why---------------- */
 .about{
  background-color: #f7f6f6;;
 }
@@ -812,7 +803,7 @@ width: 50%;
   margin-top: 20px;
 }
 
-/* other screens */
+/*----------------- other screens -----------------*/
 @media screen and (max-width:895px) {
   .why-grid {
   grid-template-columns: repeat(2, 1fr);
@@ -833,7 +824,6 @@ width: 80%;
 }
 
 .why-card {
-
   background-color: #ffffff;
   color: #666;
   padding: 20px;
@@ -846,13 +836,12 @@ width: 80%;
 }
 
 .why-card:hover {
-
   transform: scale(1.05) translateY(-5px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
   background: linear-gradient(145deg, #e6f7f1, #ffffff);
 }
 
-/* Animation */
+/* -----------why us section animation ---------------------*/
 .fade-in {
   opacity: 0;
   transform: translateY(30px);
@@ -865,7 +854,7 @@ width: 80%;
 }
 
 
-/* adding sectors */
+/*-------------------- sectors slider------------------*/
 
 .sectors-section {
   padding: 80px 0;
@@ -997,26 +986,7 @@ width: 80%;
   font-size: 1.5rem;
 }
 
-.carousel-indicators {
-  bottom: 20px;
-}
-
-.carousel-indicators button {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background-color: rgba(255,255,255,0.5);
-  border: none;
-  margin: 0 5px;
-  transition: all 0.3s ease;
-}
-
-.carousel-indicators button.active {
-  background-color: #008080;
-  transform: scale(1.2);
-}
-
-/* Responsive adjustments */
+/*--------------- Responsive adjustments for slider-------------*/
 @media (max-width: 768px) {
   .carousel-image-container {
     height: 400px;
