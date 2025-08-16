@@ -590,7 +590,7 @@ nav a:hover::after {
   }
 }
 
-/*------------contactUs---------------*/
+/*------------contact Us---------------*/
 .title-heading {
   display: flex;
   justify-content: center;
@@ -728,6 +728,10 @@ nav a:hover::after {
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
+}
+
+.mapEn{
+  margin-top: 95px;
 }
 
 
