@@ -734,6 +734,16 @@ nav a:hover::after {
   margin-top: 95px;
 }
 
+@media screen and (max-width:991px) {
+  .map-container{
+    margin-top: 10px;
+  }
+
+  .mapEn{
+  margin-top: 10px;
+}
+}
+
 
 /*---------------- about and why---------------- */
 .about{
